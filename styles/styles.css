@@ -1,6 +1,8 @@
 body {
     font-family: 'Manrope', sans-serif;
     letter-spacing: -0.03em;
+    width: 1400px;
+    margin: 0 auto;
 }
 
 .container{
@@ -32,6 +34,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 150px;
+    position: relative;
 
 }
 .armchair-text {
@@ -39,13 +42,14 @@ h1 {
     font-size: 20px;
     width: 430px;
     height: 81px;
-    padding-top: 379px;
-    padding-left: 40px;
+    bottom: 40px;
+    left: 40px;
     font-size: 20px;
     line-height: 27.32px;
     font-weight: 400;
     width: 430px;
     height: 81px;
+    position: absolute;
     
 }
 
@@ -296,6 +300,7 @@ h2 {
     padding-bottom: 150px;
 }
 .project-forest-house {
+    position: relative;
     margin: 0 auto;
     width: 1400px;
     height: 717px;
@@ -307,15 +312,15 @@ h2 {
 
 }
 .project-forest-house-text {
-    
+    position: absolute;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
     width: 443px;
     height: 82px;
 
-    padding-top: 575px;
-    padding-left: 125px;
+    bottom: 60px;
+    left: 125px;
     color: #FFFFFF;
     letter-spacing: -0.03em;
 }
